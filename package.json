@@ -1,0 +1,16 @@
+{
+  "name": "rpc_vs_web3js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Prokopenko",
+  "license": "ISC",
+  "dependencies": {
+    "node-json-rpc": "0.0.1",
+    "web3": "^0.19.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
