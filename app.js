@@ -1,4 +1,4 @@
-let test = require('./lib');
+const test = require('./lib');
 
 setInterval(()=>test.testNodeRPC(response => console.dir(response)),300);
 setInterval(()=>test.testRPCXHR(response => console.dir(response)),3000);
