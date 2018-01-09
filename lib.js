@@ -3,7 +3,7 @@ const xhr = require('xmlhttprequest').XMLHttpRequest,
     rpc = require('node-json-rpc');
 
 module.exports = {
-    tries:500,
+    tries:1,
     web3Func:[
         {func:'getBlock',arg:'2000000'},
         {func:'getBalance',arg:'0x56cb9adff6b442697b2eb912a73a618a5b3bea8a'},

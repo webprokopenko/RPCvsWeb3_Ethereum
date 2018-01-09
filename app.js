@@ -1,5 +1,5 @@
 let test = require('./lib');
 
-test.testNodeRPC(response => console.dir(response));
-test.testRPCXHR(response => console.dir(response));
-test.testWeb3(response => console.dir(response));
+setInterval(()=>test.testNodeRPC(response => console.dir(response)),300);
+setInterval(()=>test.testRPCXHR(response => console.dir(response)),3000);
+setInterval(()=>test.testWeb3(response => console.dir(response)),3000)
